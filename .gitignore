@@ -1,0 +1,14 @@
+/Web Scraper/chromedriver_mac64.zip
+/Web Scraper/chromedriver_mac_arm64/
+/.idea/.gitignore
+/Data/Countries/Canada_articles.csv
+/.idea/ContextualSentimentInvestmentTool.iml
+/.idea/jupyter-settings.xml
+/main.py
+/Data/MarketWatch List Countries.csv
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/.idea/other.xml
