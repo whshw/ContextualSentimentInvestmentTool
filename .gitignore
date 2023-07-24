@@ -1,7 +1,7 @@
 /Web Scraper/chromedriver_mac64.zip
 /Web Scraper/chromedriver_mac_arm64/
 /.idea/.gitignore
-/Data/Countries/Canada_articles.csv
+/Data/Countries/
 /.idea/ContextualSentimentInvestmentTool.iml
 /.idea/jupyter-settings.xml
 /main.py
@@ -12,3 +12,4 @@
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/vcs.xml
 /.idea/other.xml
+/Data/yield_duration_data.xlsx
