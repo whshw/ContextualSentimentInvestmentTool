@@ -1,5 +1,5 @@
-/Web Scraper/chromedriver_mac64.zip
-/Web Scraper/chromedriver_mac_arm64/
+/Part 1 Web Scraper/chromedriver_mac64.zip
+/Part 1 Web Scraper/chromedriver_mac_arm64/
 /.idea/.gitignore
 /Data/Countries/
 /.idea/ContextualSentimentInvestmentTool.iml
@@ -16,3 +16,4 @@
 /Data/yield_duration_data.xlsx
 /Data/countries_integration/
 /webScrapeTest.ipynb
+/rtfFileTest.ipynb
