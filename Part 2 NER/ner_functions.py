@@ -107,7 +107,7 @@ def perform_ner_on_dataframe(df, country_name, country_aliases, threshold):
         ner_result = {
             'Date': df['Date'].iloc[i],
             'Headline': df['Headline'].iloc[i],
-            'Count': count,
+            'Count': count[i],
             'NER': json.dumps(ner_results, default=json_serializable)
         }
         ner_results_data_list.append(ner_result)
