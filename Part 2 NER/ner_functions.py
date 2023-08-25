@@ -96,7 +96,7 @@ def perform_ner_on_dataframe(df, country_name, country_aliases, threshold):
             entity_name = ' '.join(words)
             entity_type = entity_group[0]['entity']
             entity_score = sum(entity['score'] for entity in entity_group) / len(entity_group)
-            if entity_type in ["B-LOC", "B-ORG"] and entity_score > 0.98:
+            if entity_type in ["B-ORG"] and entity_score > 0.98:
                 country_check.append(entity_name)
                 if any(alias in entity_name for alias in aliases):
                     country_instances.append(entity_name)
